@@ -35,7 +35,7 @@
     + head
         - Command untuk melihat beberapa line awal dari sebuah file text
     + tail
-        - Command untuk melihat beberapa line awal dari sebuah file text
+        - Command untuk melihat beberapa line akhir dari sebuah file text
     + cat
         - Command untuk melihat isi sebuah file        
 * Menyalin, memindahkan, dan menghapus files & directory
@@ -132,8 +132,8 @@
 
 ### HTML Structure
 > HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship). </br>
-> __Child Element : __ sebuah element berada di dalam element lain </br>
-> __Parent Element : __ Element yang berada diatas element lain </br>
+> _Child Element : _ sebuah element berada di dalam element lain </br>
+> _Parent Element : _ Element yang berada diatas element lain </br>
 
 ### HTML Anatomy
 ![HTML Anatomy](HTMLAnatomy.jpg)
@@ -214,23 +214,23 @@
 > Belajar algoritma sama aja dengan mengingat kembali alur berfikir yg terstruktur </br>
         
 * Ciri-ciri algoritma
-    + __Input : __ Memiliki 0 atau lebih inputan
-    + __Output : __ Memiliki min 1 buah output
-    + __Definiteness (pasti) : __ Instruksi jelas tidak ambigu
-    + __Finiteness (ada batas) : __ Memiliki titik berhenti (stop)
-    + __Effectiveness (tepat dan efisien) : __ Sebisa mungkin tepat sasaran dan efisien
+    + _Input : _ Memiliki 0 atau lebih inputan
+    + _Output : _ Memiliki min 1 buah output
+    + _Definiteness (pasti) : _ Instruksi jelas tidak ambigu
+    + _Finiteness (ada batas) : _ Memiliki titik berhenti (stop)
+    + _Effectiveness (tepat dan efisien) : _ Sebisa mungkin tepat sasaran dan efisien
 
 * Jenis Proses Algoritma
-    + __Sequence : __ Instruksi yg dijalankan secara berurutan
-    + __Selection : __ Instruksi yg dijalankan jika memenuhi suatu kondisi
-    + __Iteration : __ Instruksi yg berulang kali dijalankan selama memenuhi suatu kondisi
-    + __Concurrent : __ Instruksi yg dijalankan secara bersamaan
+    + _Sequence : _ Instruksi yg dijalankan secara berurutan
+    + _Selection : _ Instruksi yg dijalankan jika memenuhi suatu kondisi
+    + _Iteration : _ Instruksi yg berulang kali dijalankan selama memenuhi suatu kondisi
+    + _Concurrent : _ Instruksi yg dijalankan secara bersamaan
   
 * Penyajian Algoritma
-    + __Deskriptif : __ Penulisan algoritma dengan cara deskriptif seperti kita menulis tutorial (tata cara) dengan bahasa sehari-hari.
-    + __Flow Chart : __ Flow chart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan. </br>
+    + _Deskriptif : _ Penulisan algoritma dengan cara deskriptif seperti kita menulis tutorial (tata cara) dengan bahasa sehari-hari.
+    + _Flow Chart : _ Flow chart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan. </br>
     ![Simbol-simbol pada Flowchart](SimbolFlowchart.jpg)
-    + __Pseudo Code : __ Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
+    + _Pseudo Code : _ Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
       - Pada umumnya pseudocode memiliki 3 bagian:
       > * Judul : Penjelasan dari algoritma yg dibuat
       > * Deklarasi : Mendefinisikan/menyiapkan semua nama (variabel) yg akan digunakan
