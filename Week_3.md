@@ -181,7 +181,7 @@ let person = {
   + Jadi jika membutuhkan untuk update seluruh data object gunakan ‘let’ pada saat deklarasi variabel.  
 
 ### Delete Object Property
-* Kita dapat menghapus properti dari object menggunakan delete operator.
+* Kita dapat menghapus properti dari object menggunakan delete operator. </br>
 ![Delete Object Property](img/DeleteObjectProperty.jpg) </br>
 
 ### Method
@@ -190,11 +190,11 @@ let person = {
 * Kita bisa membuat method custom untuk kita gunakan pada aplikasi kita
 
 ### Nested Object
-* Pada real application pasti ditemukan data object yang kompleks. Object yang berasal dari turunan object lainnya.
+* Pada real application pasti ditemukan data object yang kompleks. Object yang berasal dari turunan object lainnya. </br>
 ![Nested Object](img/NestedObject.jpg) </br>
 
 ### Pass by reference
-* Kita bisa mengubah data yang ada pada object melalui sebuah function dan memasukkan object sebagai parameter function. Ini biasa disebut passed by reference.
+* Kita bisa mengubah data yang ada pada object melalui sebuah function dan memasukkan object sebagai parameter function. Ini biasa disebut passed by reference. </br>
 ![Pass by reference](img/Passbyreference.jpg) </br>
 
 ### Looping Object
@@ -207,7 +207,7 @@ for(let key in object){
 
 ### Array of Object
 * Object sama seperti Array yang bisa menyimpan banyak data. Kita dapat menggunakan array of object untuk data yang lebih dari satu.
-* Contoh
+* Contoh </br>
 ![Array of Object](img/ArrayofObject.jpg) </br>
 
 > Output </br>
@@ -248,7 +248,7 @@ function recursive(){
   + Fungsi rekursif selalu memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. Kondisi ini harus dapat dibuktikan akan tercapai, karena jika tidak tercapai maka kita tidak dapat membuktikan bahwa fungsi akan berhenti, yang berarti algoritma kita tidak benar.
   + Fungsi rekursif selalu memanggil dirinya sendiri sambil mengurangi atau memecahkan data masukan setiap panggilannya. Hal ini penting diingat, karena tujuan utama dari rekursif ialah memecahkan masalah dengan mengurangi masalah tersebut menjadi masalah-masalah kecil.
 
-* Contoh kasus rekursif
+* Contoh kasus rekursif </br>
 ![Contoh kasus rekursif](img/Contohkasusrekursif.jpg) </br>
 
 ## JavaScript Intermediate - Asynchronous - Introduction
@@ -273,7 +273,7 @@ console.log(greeting);
 ### A long-running synchronous function
 > Bagaimana jika synchronous function membutuhkan waktu lama? </br>
 > * Contoh : </br>
-> Program di bawah ini menggunakan algoritma yang sangat tidak efisien untuk menghasilkan banyak bilangan prima besar ketika user mengklik "Generate primes" button. Semakin tinggi jumlah bilangan prima yang ditentukan ser, semakin lama operasi akan berlangsung.
+> Program di bawah ini menggunakan algoritma yang sangat tidak efisien untuk menghasilkan banyak bilangan prima besar ketika user mengklik "Generate primes" button. Semakin tinggi jumlah bilangan prima yang ditentukan ser, semakin lama operasi akan berlangsung. </br>
 ![contoh1](img/contoh1.jpg) </br>
 ```
 <label for="quota">Number of primes:</label>
@@ -322,7 +322,7 @@ document.querySelector('#reload').addEventListener('click', () => {
 });
 ```
 
-### The trouble with long-running synchronous functions
+### The trouble with long-running synchronous functions </br>
 ![contoh2](img/contoh2.jpg) </br>
 * Contoh : pada program sebelumnya ditambahkan text box yang bisa diketik oleh user. Coba klik "Generate primes" button dan coba ketik di text box segera setelahnya.
 * Didapatkan bahwa saat fungsi generatePrimes() berjalan, program sama sekali tidak responsif: user tidak dapat mengetik apa pun, mengeklik apa pun, atau melakukan hal lain. 
