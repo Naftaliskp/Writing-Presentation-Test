@@ -229,25 +229,25 @@ msg(); // Message: Hello World! <-- after 2 seconds
   + jika folder sudah ada sebelumnya
     - `git init .`
 
-### GIT STATUS
+#### GIT STATUS
 * 3 Kondisi File pada GIT
   + __Modified__ adalah kondisi dimana revisi atau perubahan sudah dilakukan, tetapi belum ditandai (untracked) dan belum disimpan dalam version control.
   + __Staged__ adalah kondisi dimana revisi sudah ditandai (modified) namun belum disimpan di version control.
   + __Commit/committed__ adalah kondisi dimana revisi sudah disimpan pada version control.
 
-### GIT ADD
+#### GIT ADD
 * Setelah cek status dengan ‘git status’, selanjutnya kita ubah status ‘untrackted file’ dan ‘unmodified’ menjadi modified. Gunakan git add
   + `git add index.html` atau `git add .`
   + Jika untracked file nya dalam jumlah besar gunakan `git add .`
 
-### GIT COMMIT
+#### GIT COMMIT
 * Lakukan ‘git commit’ untuk save perubahan pada version control
   + `git commit -m "your comment"`
 
-### Revisi Kedua pada GIT
+#### Revisi Kedua pada GIT
 * __Perhatikan!__ Kondisi sudah tidak di ‘untrackted files’ tapi ‘modified files’
 
-### GIT LOG
+#### GIT LOG
 * Dari dua revisi yang sudah dilakukan kita dapat melihat catatal log dari revisi - revisi tersebut dengan menggunakan perintah berikut ini:
   + `git log`
   + Untuk git log yang lebih pendek, bisa menggunakan perintah berikut ini: `git log --oneline`
@@ -256,11 +256,11 @@ msg(); // Message: Hello World! <-- after 2 seconds
   + Melihat log file tertentu
   + Melihat log berdasarkan author
 
-### GIT REVERT
+#### GIT REVERT
 * GIT Revert akan membatalkan semua perubahan yang ada tanpa menghapus commit terakhir. Jika menggunakan GIT Reset, commit terakhir akan hilang.
   + `git revert -n <nomor commit>`
 
-### GIT CHECKOUT
+#### GIT CHECKOUT
 * Kondisi file sudah pada kondisi ‘Modified’. Selanjutnya kita lakukan proses yg sama sebelumnya. Menggunakan ‘git checkout’
 * Kita bisa mengembalikan commit untuk semua file
 * Membatalkan Perubahan - Sudah Stagged namun Belum Commited
@@ -268,11 +268,11 @@ msg(); // Message: Hello World! <-- after 2 seconds
 * Jika ingin mengembalikan commit jauh ke bawah. Misal kita ingin kembali pada 3 commit sebelumnya
   + `git checkout HEAD-3 nama.file`
 
-### GIT RESET
+#### GIT RESET
 * Kita bisa mengembalikan commit hanya pada file tertentu  
   + `git reset nama.file`
 
-### GIT BRANCH
+#### GIT BRANCH
 * Fitur yang WAJIB digunakan jika berkolaborasi dengan developer atau dalam tim
 * Untuk menghindari conflict code yang dikembangkan. Kita tidak boleh berkolaborasi dalam project di satu branch yang sama!
 * Tidak boleh mengganggu branch ‘master’ yang sudah terupdate
@@ -285,7 +285,7 @@ msg(); // Message: Hello World! <-- after 2 seconds
 * Delete Branch
   + `git branch -d <branch>`
 
-### GIT MERGE
+#### GIT MERGE
 * Setelah membuat branch baru, lalu lakukan commit. Saatnya kita menyatukan pekerjaan ke master file/branch utama yaitu branch MASTER
 * Untuk menyatukan branch cabang fitur yang telah kita kembangkan. Gunakan perintah seperti berikut ini:
   + Kita harus checkout dahulu ke branch master : `git checkout master`
