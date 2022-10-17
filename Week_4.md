@@ -260,7 +260,7 @@ msg(); // Message: Hello World! <-- after 2 seconds
 * GIT Revert akan membatalkan semua perubahan yang ada tanpa menghapus commit terakhir. Jika menggunakan GIT Reset, commit terakhir akan hilang.
   + `git revert -n <nomor commit>`
 
-## GIT CHECKOUT
+### GIT CHECKOUT
 * Kondisi file sudah pada kondisi ‘Modified’. Selanjutnya kita lakukan proses yg sama sebelumnya. Menggunakan ‘git checkout’
 * Kita bisa mengembalikan commit untuk semua file
 * Membatalkan Perubahan - Sudah Stagged namun Belum Commited
