@@ -129,3 +129,34 @@ Output : </br>
 
 ### Array dalam useState Hooks 
 * kita bisa menggunakan array untuk menyimpan data dalam state dengan memasukkan tanda `[]` dalam useState
+
+### Penggunaan useState Hooks 
+* useState biasanya digunakan ketika menyimpan data suatu form yang nantinya akan dipost ke API untuk diproses.
+* case lainnya adalah saat akan melakukan call API, bisa menyimpan data hasil `GET` dari API tersebut ke dalam state menggunakan useState.
+
+### Apa itu useEffect Hooks?
+* useState adalah hooks yang bisa digunakan untuk menggunakan lifecycle pada functional component dengan mudah.
+
+### Apa itu lifeCycle?
+* lifeCycle jika dianalogikan bisa dianggap seperti lingkaran kehidupan selama 24 jam mulai dari bangun tidur hingga tidur lagi.
+* lifeCycle yang ada di dalam hooks hanya menggunakan useEffect yang menyatukan componentDidMount, componentDidUpdate, dan componentWillUnmount.
+* lifeCycle Structure
+  ![lifeCycle Structure](img/lifeCycleStructure.jpg)
+  
+### Penggunaan useEffect
+* penggunakan useEffect, bisa dimasukkan sebelum melakukan render, useEffect sendiri biasanya ditempatkan di bawah useState.
+* nantinya apa yang dituliskan dalam useEffect akan dijalankan setiap component baru di-mount (componentDidMount), terjadi perubahan (componentDidUpdate), dan pada saat component akan ditinggalkan (componentWillUnmount.)
+
+### infinity re-render
+* re-render yang berlebihan atau infinity re-render bisa saja terjadi dan dapat diatasi dengan menambahkan `[]` atau `[variableYangBerubah]` untuk menentukan bahwa useEffect hanya akan berjalan saat terjadi update pada variable yang di bagian akhir
+
+### Penggunaan useEffect Hooks
+* useEffect biasanya akan digunakan saat membuat suatu call API karena API akan selalu dipanggil saat komponen terbentuk, maka call API bisa dilakukan di dalam useEffect
+
+### Hooks lainnya
+* useContext
+* useReducer
+
+### Tips
+* Hooks harus selalu dipanggil di bagian atas component, yaitu biasanya setelah pembuatan function component, begitu juga untuk useState dan useEffect
+* Gunakan `[]` di akhir useEffect, agar tidak terjadi re-render yang berlebihan.
