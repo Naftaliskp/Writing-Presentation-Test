@@ -140,7 +140,7 @@ Output : </br>
 ### Apa itu lifeCycle?
 * lifeCycle jika dianalogikan bisa dianggap seperti lingkaran kehidupan selama 24 jam mulai dari bangun tidur hingga tidur lagi.
 * lifeCycle yang ada di dalam hooks hanya menggunakan useEffect yang menyatukan componentDidMount, componentDidUpdate, dan componentWillUnmount.
-* lifeCycle Structure
+* lifeCycle Structure </br>
   ![lifeCycle Structure](img/lifeCycleStructure.jpg)
   
 ### Penggunaan useEffect
