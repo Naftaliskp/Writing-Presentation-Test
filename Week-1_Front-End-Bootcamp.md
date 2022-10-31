@@ -21,11 +21,11 @@
 ### Membuat User Interface menggunakan Vanilla JS dan DOM
 * Vanilla JS is a anonymous artinya kita menggunakan native Javascript (default).
 * Membuat UI Element dengan React JS
-  + Membuat file baru bernama HelloWorld.js pada direktori src
+  + Membuat file baru bernama HelloWorld.js pada direktori src </br>
   ![HelloWorld.js](img/Helloworldjs.jpg)
-  + Edit file App.js
+  + Edit file App.js </br>
   ![App.js](img/appjs.jpg)
-  + Outputnya akan seperti ini
+  + Outputnya akan seperti ini </br>
   ![Output React](img/OutputReact.jpg)
   
   
@@ -44,7 +44,7 @@
 * Pada JSX attribute class di tag element HTML harus menggunakan className.
 
 ### Curly Braces `{}` in JSX
-* Kita bisa menggunakan syntax Javascript di dalam element HTML dengan curly braces.
+* Kita bisa menggunakan syntax Javascript di dalam element HTML dengan curly braces. </br>
 ![contoh curly braces](img/contohcurlybraces.jpg)
   > Maka outputnya akan menunjukkan angka `5`, namun apabila tidak menggunakan curly braces maka output akan menunjukkan `2 + 3`
 
@@ -57,10 +57,10 @@
 ### Event in JSX
 * Gunakan curly braces untuk deklarasi event.
 
-### Conditional in JSX
+### Conditional in JSX </br>
 ![contoh Conditional in JSX](img/ContohConditionalinJSX.jpg)
 
-### .map()
+### .map() </br>
 ![contoh .map()](img/map().jpg)
 
 Output : </br>
@@ -86,7 +86,7 @@ Output : </br>
     + buat file avatar.css sejajar dengan file component.
     + nama folder, file dan function component harus menggunakan huruf besar di awal dan kata selanjutnya
 * __Step 5 :__ Panggil component pada page yang membutuhkannya
-  - import component avatar pada App.js 
+  - import component avatar pada App.js </br>
   ![component avatar pada App.js ](img/componentavatarpadaAppjs.jpg)
 * Lakukan kembali __Step 4 - Step 5__ untuk membuat component lainnya.
 * Untuk styling halaman my courses agar sesuai dengan UI wireframe, lakukan styling pada halaman tersebut bukan pada component avatar, jadi lakukan styling pada `app.css` bukan `avatar.css`
@@ -96,10 +96,10 @@ Output : </br>
 
 ### Stateful Component and Stateless Component
 * Stateless Component
-  - Stateless Avatar Component
+  - Stateless Avatar Component </br>
   ![Stateless Avatar Component](img/StatelessAvatarComponent.jpg)
 * Stateful Component
-  - App.js menjadi Stateful Component
+  - App.js menjadi Stateful Component </br>
   ![App.js menjadi Stateful Component](img/AppjsmenjadiStatefulComponent.jpg)
   
 ### State and Props  
@@ -121,7 +121,7 @@ Output : </br>
 
 ### Apa itu useState?
 * useState adalah hooks yang penggunaannya sama seperti state biasa namun sedikit berbeda dengan setState/state di class components.
-* useState Syntax Structure
+* useState Syntax Structure </br>
   ![useState Syntax Structure](img/useStateSyntaxStructure.jpg)
 
 ### Update State
